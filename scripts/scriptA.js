@@ -7,5 +7,5 @@ function contarVogais(parametro) {
 }
 console.log(contarVogais("Testando"));
 console.log(contarVogais("Kevin"));
-console.log(contarVogais("Vamos testar com uma frase"));
+console.log(contarVogais("Vamos testar com uma fraseeeee"));
 //# sourceMappingURL=scriptA.js.map
