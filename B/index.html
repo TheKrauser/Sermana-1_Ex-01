@@ -20,9 +20,9 @@
             textBox = window.document.getElementById('word');
             resultado = window.document.getElementById('resultado');
 
-            var palavra = String(textBox.value);
+            let palavra = String(textBox.value);
 
-            var count = palavra.match(/[aeiou]/gi);
+            let count = palavra.match(/[aeiou]/gi);
 
             resultado.innerHTML = `A palavra que você digitou possui ${count.length} vogais. Sendo elas [${count}].`;
         }
