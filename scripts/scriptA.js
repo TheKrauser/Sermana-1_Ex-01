@@ -3,7 +3,7 @@ function contarVogais(parametro) {
     if (!count)
         return 0; //Retornará o valor 0 caso a variavel count não tenha nada (seja ela Undefined, Null, False ou 0)
     else
-        return count; //Se houver um valor então retorna ele
+        return count.length; //Se houver um valor então retorna ele
 }
 console.log(contarVogais("Testando"));
 console.log(contarVogais("Kevin"));

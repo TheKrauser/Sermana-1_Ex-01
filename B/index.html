@@ -17,14 +17,21 @@
     <script>
         function contarVogais()
         {
+            //Pega o elemento dos Inputs
             textBox = window.document.getElementById('word');
             resultado = window.document.getElementById('resultado');
 
+            //Guarda a palavra na variável
             let palavra = String(textBox.value);
 
+            //Guarda todas as vogais na variavel count
             let count = palavra.match(/[aeiou]/gi);
 
+            //Imprime na tela
             resultado.innerHTML = `A palavra que você digitou possui ${count.length} vogais. Sendo elas [${count}].`;
+
+            //Retorna a quantidade de vogais
+            return count.length;
         }
     </script>
 </body>
